@@ -12,9 +12,28 @@
    ========================================================================== */
 
 html {
-  color: #222;
-  font-size: 1em;
+  background-color: black;
+  color: green;
+  font: 1rem "Courier New", Monospace;
   line-height: 1.4;
+}
+
+body {
+  margin: 1rem;
+}
+
+button {
+  background-color: darkgreen;
+  color: black;
+  padding: .25rem;
+  border-radius: .35rem;
+  border: 3px outset green;
+}
+
+button:hover {
+  background-color: green;
+  border: 3px inset darkgreen;
+  padding: .25rem .20rem .25rem .30rem;
 }
 
 /*
