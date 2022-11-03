@@ -17,6 +17,7 @@ function setBoard(){
 let gameBoard = [];
 let totalSquares = 0;
 function fillBoard(across, down){
+    document.getElementById("board").classList.remove("hidden");
     let returnBoard = [];
     gameBoard = [];
     totalSquares = across * down;

@@ -22,20 +22,29 @@ body {
   margin: 1rem;
 }
 
-button {
+.games-box a {
   background-color: darkgreen;
   color: black;
   padding: .25rem;
   border-radius: .35rem;
   border: 3px outset green;
+  text-decoration: none;
 }
 
-button:hover {
+.games-box:hover a {
   background-color: green;
   border: 3px inset darkgreen;
   padding: .25rem .20rem .25rem .30rem;
 }
 
+.games-box {
+  border: 3px double green;
+  padding: 1rem;
+}
+
+.no-decoration {
+  text-decoration: none;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
