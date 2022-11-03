@@ -37,8 +37,12 @@ var itemsClicked = 0;
 var clicked1;
 var clicked2;
 function clickItem(across, down){
-    if (itemsClicked === 0) {
-        clicked1 = document.getElementsByClassName("row-" + down + " item-" + across)[0];
+    let thisItem = document.getElementsByClassName("row-" + down + " item-" + across)[0];
+    if (thisItem.classList.contains("revealed")){
+      return;
+    }
+    else if (itemsClicked === 0) {
+        clicked1 = thisItem;
         if (gameBoard[down][across] === -1)
             assignMatchable(across, down, clicked1);
         clicked1.innerHTML = gameBoard[down][across];
@@ -46,7 +50,7 @@ function clickItem(across, down){
         itemsClicked++;
     }
     else if (itemsClicked < 2) {
-        clicked2 = document.getElementsByClassName("row-" + down + " item-" + across)[0];
+        clicked2 = thisItem;
         if (gameBoard[down][across] === -1)
             assignMatchable(across, down, clicked2);
         clicked2.innerHTML = gameBoard[down][across];
