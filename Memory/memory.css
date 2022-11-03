@@ -1,0 +1,290 @@
+.across-container {
+	display: flex;
+}
+
+#shield {
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+}
+
+#shield.hidden {
+	display: none;
+}
+
+.square {
+	height: 3rem;
+	width: 3rem;
+	min-width: 3rem;
+	background-color: darkblue;
+	border: 1px solid black;
+	border-radius: .25rem;
+	margin: 1rem;
+}
+
+.square.revealed {
+	transition: background-color 2s ease-in-out;
+	font-size: 3rem;
+	text-align: center;
+	text-shadow: 0 0 .5rem white;
+}
+
+.square.revealed.matchable-0 {
+	 background-color: AliceBlue;
+ }
+
+.square.revealed.matchable-1 {
+	background-color: AntiqueWhite;
+}
+
+.square.revealed.matchable-2 {
+	background-color: Aqua;
+}
+
+.square.revealed.matchable-3 {
+	background-color: BlueViolet;
+}
+
+.square.revealed.matchable-4 {
+	background-color: Brown;
+}
+
+.square.revealed.matchable-5 {
+	background-color: CadetBlue;
+}
+
+.square.revealed.matchable-6 {
+	background-color: Chartreuse;
+}
+
+.square.revealed.matchable-7 {
+	background-color: Coral;
+}
+
+.square.revealed.matchable-8 {
+	background-color: CornflowerBlue;
+}
+
+.square.revealed.matchable-9 {
+	background-color: Crimson;
+}
+
+.square.revealed.matchable-10 {
+	background-color: DarkGoldenRod;
+}
+
+.square.revealed.matchable-11 {
+	background-color: DarkGrey;
+}
+
+.square.revealed.matchable-12 {
+	background-color: DarkGreen;
+}
+
+.square.revealed.matchable-13 {
+	background-color: DarkMagenta;
+}
+
+.square.revealed.matchable-14 {
+	background-color: DarkKhaki;
+}
+
+.square.revealed.matchable-15 {
+	background-color: DarkRed;
+}
+
+.square.revealed.matchable-16 {
+	background-color: DarkSlateBlue;
+}
+
+.square.revealed.matchable-17 {
+	background-color: DarkSeaGreen;
+}
+
+.square.revealed.matchable-18 {
+	background-color: DarkViolet;
+}
+
+.square.revealed.matchable-19 {
+	background-color: DeepSkyBlue;
+}
+
+.square.revealed.matchable-20 {
+	background-color: DodgerBlue;
+}
+
+.square.revealed.matchable-21 {
+	background-color: ForestGreen;
+}
+
+.square.revealed.matchable-22 {
+	background-color: Gold;
+}
+
+.square.revealed.matchable-23 {
+	background-color: Green;
+}
+
+.square.revealed.matchable-24 {
+	background-color: HotPink;
+}
+
+.square.revealed.matchable-25 {
+	background-color: Indigo;
+}
+
+.square.revealed.matchable-26 {
+	background-color: LawnGreen;
+}
+
+.square.revealed.matchable-27 {
+	background-color: Lavender;
+}
+
+.square.revealed.matchable-28 {
+	background-color: LightBlue;
+}
+
+.square.revealed.matchable-29 {
+	background-color: LightCoral;
+	color: white;
+}
+
+.square.revealed.matchable-30 {
+	background-color: LightGreen;
+}
+
+.square.revealed.matchable-31 {
+	background-color: LightSalmon;
+}
+
+.square.revealed.matchable-32 {
+	background-color: LightSeaGreen;
+}
+
+.square.revealed.matchable-33 {
+	background-color: LightSkyBlue;
+}
+
+.square.revealed.matchable-34 {
+	background-color: Lime;
+}
+
+.square.revealed.matchable-35 {
+	background-color: MediumOrchid;
+}
+
+.square.revealed.matchable-36 {
+	background-color: MediumSlateBlue;
+}
+
+.square.revealed.matchable-37 {
+	background-color: Navy;
+}
+
+.square.revealed.matchable-38 {
+	background-color: MediumSpringGreen;
+}
+
+.square.revealed.matchable-39 {
+	background-color: Olive;
+}
+
+.square.revealed.matchable-40 {
+	background-color: Orange;
+}
+
+.square.revealed.matchable-41 {
+	background-color: OrangeRed;
+}
+
+.square.revealed.matchable-42 {
+	background-color: Peru;
+}
+
+.square.revealed.matchable-43 {
+	background-color: Plum;
+}
+
+.square.revealed.matchable-44 {
+	background-color: Pink;
+}
+
+.square.revealed.matchable-45 {
+	background-color: Purple;
+}
+
+.square.revealed.matchable-46 {
+	background-color: Red;
+}
+
+.square.revealed.matchable-47 {
+	background-color: RoyalBlue;
+}
+
+.square.revealed.matchable-48 {
+	background-color: Salmon;
+}
+
+.square.revealed.matchable-49 {
+	background-color: SeaGreen;
+}
+
+.square.revealed.matchable-50 {
+	background-color: Tomato;
+}
+
+.square.revealed.matchable-51 {
+	background-color: Thistle;
+}
+
+.square.revealed.matchable-52 {
+	background-color: Turquoise;
+}
+
+.square.revealed.matchable-53 {
+	background-color: Teal;
+}
+
+.square.revealed.matchable-54 {
+	background-color: Yellow;
+}
+
+.square.revealed.matchable-55 {
+	background-color: YellowGreen;
+}
+
+.square.revealed.matchable-56 {
+	background-color: White;
+}
+
+.square.revealed.matchable-57 {
+	background-color: Wheat;
+}
+
+.square.revealed.matchable-58 {
+	background-color: SkyBlue;
+}
+
+.square.revealed.matchable-59 {
+	background-color: Black;
+	text-shadow: none;
+	color: white;
+}
+
+.square.revealed.matchable-60 {
+	background-color: LemonChiffon;
+}
+
+.square.revealed.matchable-61 {
+	background-color: LightPink;
+}
+
+.square.revealed.matchable-62 {
+	background-color: MediumPurple;
+}
+
+.square.revealed.matchable-63 {
+	background-color: Maroon;
+	color: white;
+}
